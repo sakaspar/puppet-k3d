@@ -11,11 +11,11 @@ The base Kustomization file includes the common resources for the cluster, such 
 To set up the repository, you can follow these steps:
 
 1. Clone the repository to your Raspberry Pi:
-git clone https://github.com/username/repo.git
+git clone [https://github.com/username/repo.git](https://github.com/sakaspar/puppet-k3d)
 
 2. Install Puppet and any dependencies:
 sudo apt-get update
 sudo apt-get install puppet-agent
 
 3. Install Flux and Kustomize:
-flux install --git-user=username --git-email=email --git-url=https://github.com/username/repo.
+flux install --git-user=username --git-email=email --git-url=https://github.com/sakaspar/puppet-k3d.
