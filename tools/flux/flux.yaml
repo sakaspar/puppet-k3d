@@ -4,7 +4,7 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  url: https://github.com/username/repo.git
+  url: https://github.com/sakaspar/puppet-k3d.git
   interval: 10m
   secretRef:
     name: flux-system
